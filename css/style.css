@@ -1,0 +1,52 @@
+ <style type = "text/css">
+		body{
+			background-image: url("h.jpg");
+			background-repeat :no-repeat;
+			background-position :left top;
+			}
+		h1{
+			margin: 25px 50px 75px;
+			color: white;
+		}
+		p{
+			color: white;
+			margin: 25px 50px 75px;
+		}
+		div{
+			margin:25px 50px 50px;
+			color: white;
+		}
+		ul{
+			list-style-type: none;
+			margin: 10px;
+			padding: 0;
+			overflow: hidden;
+			background-color: dodgerblue;
+			text-decoration: none;
+		}
+		li{
+			float: left;
+			border-right: 1px solid #bbb;
+			text-decoration: none;
+		}
+		li:last-child{
+			border-right: none; 
+		}
+		li a{
+            display: block;
+            padding: 14px 16px;
+            color: white;
+            text-align: center;
+        }
+        li a:hover:not(.active){
+        	background-color: #111;
+        }
+        .active{
+        	background-color: white;
+        	color: blue;
+        }
+        img{
+        	float:left;
+        }
+        
+</style>

@@ -1,5 +1,5 @@
- <style type = "text/css">
-		body{
+ 
+body{
 			background-image: url("h.jpg");
 			background-repeat :no-repeat;
 			background-position :left top;
@@ -48,5 +48,3 @@
         img{
         	float:left;
         }
-        
-</style>
